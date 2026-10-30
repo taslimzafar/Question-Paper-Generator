@@ -9,6 +9,11 @@ An interactive, browser-based assessment generation tool built with Streamlit. I
 
 ## ✨ Features
 
+- **Modern Studio UI & Visuals:**
+  - Glassmorphic hero interface with real-time system status indicators.
+  - Live document diagnostics (word count, sentence count, estimated reading duration, readiness status).
+  - One-click sample syllabus presets (Operating Systems, Machine Learning, Environmental Science) for rapid evaluation.
+  - High-contrast sidebar for blueprint parameterization and engine selection.
 - **Dual Generation Modes:**
   - **Offline Mode:** Privacy-first, deterministic extractive question generation running entirely on your local machine with zero external network calls or API keys required.
   - **LLM Mode:** Connect to any OpenAI-compatible API endpoint (OpenAI, LocalAI, vLLM, Ollama, Groq, etc.) with custom model and base URL settings.
@@ -18,15 +23,16 @@ An interactive, browser-based assessment generation tool built with Streamlit. I
   - Customizable subject, class/grade, assessment type (Unit test, Midterm, Quiz, Practice test, Final exam).
   - Configurable question count, total marks distribution, and difficulty levels (Easy, Moderate, Challenging).
   - Multiple question formats: Short Answer, Long Answer, and Multiple Choice (MCQ).
-- **Interactive Review & Editing:**
-  - Edit question prompts, mark weightings, and model answer keys directly inside expandable UI cards before exporting.
-  - Teacher view includes rationale, suggested answers, and source sentence grounding.
-- **One-Click Export:**
+- **Interactive Review & Printable Layout:**
+  - **Interactive Editor:** Edit question prompts, adjust per-item mark weightings, and modify model answers directly.
+  - **Printable Academic Layout:** Formatted institutional exam view complete with header, instructions, time allocation, and section marks.
+  - Teacher marking guide with rationale and source sentence grounding.
+- **One-Click Export Studio:**
   - Download Student Question Paper (`.txt`).
   - Download Teacher Answer Key & Marking Guide (`.txt`).
   - Export complete structured assessment data (`.json`).
 - **Exploratory Data Analysis (EDA) Suite:**
-  - Standalone data processing and SVG chart generation for retrieval metadata benchmarking.
+  - Interactive EDA tab with summary KPI cards, data dictionary viewer, and embedded SVG visualization charts.
 
 ---
 
