@@ -17,3 +17,4 @@ pip install -r requirements.txt
 
 echo "Starting Streamlit application..."
 streamlit run app.py
+

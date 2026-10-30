@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.36%2B-red.svg)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 An interactive, browser-based assessment generation tool built with Streamlit. It allows educators and trainers to transform course notes, syllabus documents, and learning materials into structured, customizable, and editable question papers.
 
@@ -142,8 +141,4 @@ This processes `data/dataset_original.csv`, cleans the records, validates value 
   - LLM mode transmits text to your specified API provider. Avoid uploading confidential, proprietary, or personally identifiable information without proper authorization.
   - API keys entered in the UI are held only in memory during the active session and are never logged or stored.
 
----
 
-## 📄 License
-
-This project is licensed under the MIT License.
