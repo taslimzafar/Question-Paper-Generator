@@ -1,0 +1,8 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description
+doc_id,string,DOC002,DOC034,DOC013,No,Synthetic identifier for the source document represented by this chunk.
+doc_type,category,TXT,TXT,HTML,No,"Source format label; categories include TXT, HTML, Markdown, and Word."
+chunk_id,string,CHK00001,CHK00002,CHK00003,No,Unique identifier for a text chunk in the synthetic retrieval dataset.
+word_count,integer,457,302,52,No,Number of words associated with the source chunk; observed range 50–499.
+retrieval_score,float,0.5962,0.7397,0.7735,No,"Synthetic relevance score for retrieval, bounded from 0 to 1."
+query_type,category,analytical,factual,comparative,No,"Intent category: analytical, factual, comparative, procedural, or summarization."
+answer_quality_score,float,0.942,0.976,0.660,No,Synthetic answer-quality score from 0 to 1; not a human-validated benchmark.

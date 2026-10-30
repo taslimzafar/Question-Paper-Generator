@@ -1,0 +1,20 @@
+{
+  "rows": 500,
+  "columns": 7,
+  "duplicates_removed": 0,
+  "missing_cells": 0,
+  "mean_retrieval_score": 0.7466,
+  "mean_synthetic_quality_score": 0.8029,
+  "quality_range": [
+    0.6,
+    1.0
+  ],
+  "query_type_counts": {
+    "analytical": 90,
+    "comparative": 92,
+    "factual": 94,
+    "procedural": 106,
+    "summarization": 118
+  },
+  "interpretation": "Synthetic descriptive metadata only; these are not generator accuracy metrics."
+}
